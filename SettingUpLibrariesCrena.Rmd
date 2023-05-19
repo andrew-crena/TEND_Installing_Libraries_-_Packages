@@ -1,0 +1,38 @@
+---
+title: "Importing the Libraries required for your task"
+author: "Andrew Crena"
+date: "2023-05-19"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+## Uploading the necessary Libraries!
+
+#### Another Important note\*\*\*\* I switched the echo to FALSE instead of TRUE, so that the output does not get displayed on the HTML file. I feel as though it is unnecessary to show the output, and focus more on the libraries and initiating them in your console.
+
+### This chunk is simply an example of me uploading a variety of libraries or packages that are either necessary for my task or will expedite the process. Some of the libraries in this chunk appear to be very popular across many universities, and some of them are more specialized.
+
+#### On another note, I sometimes find that specific packages give many other people a similar problem. Hitting the forums such as stack overflow or rpubs has been a wonderful resource to learn these tasks independently.
+
+```{r}
+
+library(tidyverse) # VERY common library 
+
+library(ggplot2)  # Very useful for visualizing your data during exploratory analysis
+
+library(dplyr) 
+
+library(foreign) 
+
+library(psych)  
+
+```
+
+### While this chunk is small, it serves as a good "refresher" or "reminder" that the console is only working on what you have asked it to work on, and this line of communication needs to be well understood at all times!
